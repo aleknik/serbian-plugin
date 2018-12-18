@@ -34,19 +34,13 @@ target/release/. Elasticsearch-SerbianPlugin-1.3.2.zip will be created there.
 # HOW TO SETUP PLUGIN TO WORK WITH ELASTICSEARCH
 To add this plugin navigate to elasticsearch`s bin folder, and run:
 
-    plugin -url path_to_Elasticsearch-SerbianPlugin-1.3.2.zip --install serbian-plugin
-Open elasticsearch configuration from elasticsearch/config/elasticsearch.yml
-Find configuration for indexes, and put:
+    elasticsearch-plugin install file:path_to_Elasticsearch-SerbianPlugin.zip
 
-    index.analysis.analyzer.default.type: serbian_analyzer
-Save configuration, go to the bin/plugin folder, and run:
-
-    plugin -l
+    elasticsearch-plugin list
 to check if plugin was successfully installed. 
 
 # HOW TO REMOVE PLUGIN
 Navigate to elasticsearch`s bin and run:
 
-    plugin -r serbian-plugin
-and remove configuration for serbian_analyzer from elasticsearch.yml.
+    elasticsearch-plugin remove serbian-plugin
 
