@@ -1,10 +1,7 @@
-#udd06
-Upravljanje digitalnim dokumentima Elasticsearch Analyzer / Digital documents management Elasticsearch Analyzer
-
 # DESCRIPTION:  
 SerbianAnalyzerElasticSearchPlugin is used for analyzing and preparing input text for indexing. 
 
-This plugin has been written for ApacheLucene v4.9 and ElasticSearch v1.3.2.
+This plugin has been written for ApacheLucene v7.5.0 and ElasticSearch v6.5.3.
 
 
 # TEXT PROCESS FLOW:
